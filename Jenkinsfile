@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('push') {
       steps {
-        sh 'touch file2'
+        sh 'echo "hare krishna" > file2'
       }
     }
 
