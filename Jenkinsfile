@@ -6,7 +6,7 @@ pipeline {
 
   }
   stages {
-    stage('stage1') {
+    stage('push') {
       steps {
         sh 'echo "hare krishna"'
       }
