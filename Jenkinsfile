@@ -8,7 +8,9 @@ pipeline {
   stages {
     stage('push') {
       steps {
-        sh 'echo "hare krishna"'
+        sh '''echo "hare krishna" 
+
+>> file1.txt'''
       }
     }
 
